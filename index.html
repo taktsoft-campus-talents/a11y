@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div>
+        <div class="header" style="display: flex">
+          <img
+            src="./man-with-glasses.jpeg"
+            style=" width: 100px; margin-right: 50"
+          />
+          <span class="h1">My not so accessible website</span>
+        </div>
+        <div class="nav">
+          <span onClick="() => (window.location = '#importantThing')">
+            Link to an important topic
+          </span>
+          <span onClick="() => (window.location = '#lessImportantThing')">
+            Link to another topic
+          </span>
+        </div>
+        <div
+          style="display: flex; justify-content: space-between;"
+        >
+          <div class="main">
+            <div class="article">
+              <div class="h2" id="importantThing">
+                A very important thing
+              </div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+            </div>
+            <div class="article">
+              <div class="h2" id="lessImportantThing">
+                And less important is this
+              </div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
+            </div>
+            <div class="section" id="aForm">
+              <div class="h2">Think of a friend every day</div>
+              <form>
+                <input placeholder="Friends name"></input>
+                <br />
+                <br />
+                <input placeholder="Date (dd/mm/yyyy)"></input>
+                <br />
+                <br />
+                <input type="submit" value="Remember"></input>
+              </form>
+            </div>
+          </div>
+          <div class="aside">
+            <div class="h2">Chat bot</div>
+            I am your friendly chat bot. Talk or type to me
+            <br />
+            <br />
+            <button>
+              <img src="./Screenshot 2023-08-25 at 13.46.55.png" width="50%"/>
+            </button>
+          </div>
+        </div>
+        <div class="footer">No rights reserved. Leave no one behind!</div>
+      </div>
+
+</body>
+</html>

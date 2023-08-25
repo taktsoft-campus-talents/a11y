@@ -1,0 +1,51 @@
+body {
+  margin: 15px;
+  font-size: 0.9rem;
+  color: #505050;
+}
+
+.nav {
+  background-color: #f0f0f0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+span {
+  padding: 10px;
+}
+
+.h1 {
+  font-size: 2.5rem;
+  color: #aaa;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  color: #bbf;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.aside {
+  background-color: azure;
+  border-style: solid;
+  max-width: 150px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.article {
+  max-width: 400px;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
